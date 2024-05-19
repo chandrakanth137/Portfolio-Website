@@ -53,4 +53,26 @@ body{
     align-items: center;
     justify-content: center;
     text-align: justify;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 40px;
+}
+
+#intro-heading{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+    color: rgb(89, 206, 157);
+
+    padding-bottom: 20px;
+}
+
+#intro-text{
+    color: rgb(185, 189, 182);
+
 }
