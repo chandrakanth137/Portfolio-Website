@@ -4,6 +4,53 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    font-family: "REM", sans-serif;
+}
+
+#github-icon{
+    max-width: 3vw;
+    max-height: 3vh;
+    position: relative;
+
+    margin-bottom: 50px;
+    margin-left: 1000px;
+    top: 285px;
+    left: 250px;
+}
+
+
+#github-text{
+    position: relative;
+    margin-bottom: 50px;
+    top: 229px;
+    left: 250px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(1, 32, 10);
+}
+
+#linkedin-icon{
+    max-width: 3vw;
+    max-height: 3vh;
+    position: relative;
+
+    margin-bottom: 50px;
+    margin-left: 1000px;
+    top: 200px;
+    left: 500px;
+}
+
+#linkedin-text{
+    position: relative;
+    margin-bottom: 50px;
+    top: 144px;
+    left: 500px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(1, 32, 10);
+}
+
 #topPage{
     background-color: rgb(30, 116, 87);
 
@@ -72,7 +119,8 @@ body{
     padding-bottom: 20px;
 }
 
+
+
 #intro-text{
     color: rgb(185, 189, 182);
-
 }
