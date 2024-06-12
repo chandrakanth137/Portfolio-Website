@@ -1,37 +1,29 @@
-import { useState } from 'react'
+import './App.css'
 import githubLogo from './assets/github.svg'
 import linkedin from './assets/linkedin.png'
-import './App.css'
+import Paper from '@mui/material/Paper';
 
 function App() {
   return (
     <>
       <div id="main">
         <div id="topPage">
-          <div id="top-page-contact-info">
-              <div id="contact">
-                  <img id="github-icon" src={githubLogo}></img> 
-                  <a id="github-text" href="https://github.com/chandrakanth137"> chandrakanth137 </a>
-                  <img id="linkedin-icon" src={linkedin}></img> 
-                  <a id="linkedin-text" href="https://www.linkedin.com/in/a-chandrakanth/"> Chandrakanth A </a>
-              </div>
+            Hi, I'm <br/> 
             
-          </div>
-            Hi, I'm
-            <br/> 
             <div id="name">
                 Chandrakanth Ashokraja
             </div>
+            
             <div id="subtext">
-                AI & ML Enthusiast
+                Artificial Intelligence & Machine Learning Enthusiast
             </div>
         </div>
 
-        <div id="intro">
-            <div id="intro-heading">
+        <div id="about">
+            <div id="sub-heading">
                 About Me
             </div>
-            <div id="intro-text"> 
+            <div id="about-text"> 
                 I am an AI and ML enthusiast with expertise in Deep Learning, Computer vision and Natural Language Processing.
                 Winner of multiple hackathons, performed research on advanced AI topics and internship in Capgemini.
                 Passionate about leveraging AI to solve complex problems and deliver high-quality results.
@@ -39,8 +31,24 @@ function App() {
         </div>
 
         <div id="experience">
-            <div id="experience-heading">
+            <div id="sub-heading">
                 Experience
+            </div>
+            <div id="jobs">
+                <div class="job">
+                    <div class="comp-deets">
+                        <p class="comp-name"> Capgemini Technology Services India Limited </p> <br/>
+                        <p class="comp-role"> Deep Learning Intern </p> <br/>
+                        <p class="comp-duration">June 2022 - December 2022 </p>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="job-short-descp">
+                        <p class="short-descp">
+                            Experimented and developed various deep learning models to detect dementia in elderly patients using longitudinal MRI scans and improved the accuracy and evaluation metrics by over 15% than existing models. <br/> 
+                            <br/><b>Tech:</b> Tensorflow, Keras, Bash, ITK Snap, Slicer, Matplotlib, NumPy, Pandas, Scipy, Nibabel, FreeSurfer, FastSurfer & OpenCV.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 

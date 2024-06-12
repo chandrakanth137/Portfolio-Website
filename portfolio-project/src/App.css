@@ -8,20 +8,14 @@ a{
   font-family: "REM", sans-serif;
 }
 
-#github-icon{
+/* #github-icon{
   max-width: 3vw;
   max-height: 3vh;
   position: relative;
-
-  margin-left: 1000px;
-  top: 200px;
-  left: 200px;
 }
 
 #github-text{
   position: relative;
-  top: 144px;
-  left: 200px;
   font-size: 1.5rem;
   text-decoration: none;
   color: rgb(1, 32, 10);
@@ -31,25 +25,19 @@ a{
   max-width: 3vw;
   max-height: 3vh;
   position: relative;
-
-  margin-left: 50%;
-  top: 200px;
-  left: 500px;
 }
 
 #linkedin-text{
   position: relative;
-  top: 144px;
-  left: 500px;
   font-size: 1.5rem;
   text-decoration: none;
   color: rgb(1, 32, 10);
-}
+} */
 
 #topPage{
   background-color: #1e7457;
 
-  padding-left: 100px;
+  padding-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 
@@ -72,6 +60,7 @@ a{
   font-weight: 400;
   font-style: normal;
   font-size: 9rem;
+  text-align: center;
 }
 
 #subtext{
@@ -80,15 +69,13 @@ a{
   font-weight: 300;
   font-style: normal;
   font-size: 2.5rem;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
-#intro{
-  margin-left: 450px;
-  margin-top: 100px;
-  margin-right: 450px;
+#about{
+  margin-top: 70px;
+  margin-left: 470px;
+  margin-right: 470px;
 
   font-size: 2rem;
 
@@ -96,32 +83,116 @@ a{
   justify-content: center;
   text-align: justify;
 
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 5px 40px 40px 40px;
   border-radius: 40px;
 }
 
-#intro-heading{
+#sub-heading{
   text-align: center;
   align-items: center;
   justify-content: center;
 
-font-family: "Bai Jamjuree", sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 
-  font-size: 3rem;
-  color: rgb(89, 206, 157);
+  font-size: 4.5rem;
+  color: rgb(0, 255, 157);
 
   padding-bottom: 20px;
 }
 
-#intro-text{
+#about-text{
   color: rgb(185, 189, 182);
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+#experience{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  padding-top: 40px;
+}
+
+#jobs{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.job{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background-color: #1e7457;
+  color: white;
+  border-radius: 150px;
+}
+
+.comp-deets{
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-top: 50px;
+  width: 500px;
+  padding-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.job-short-descp{
+  width: 700px;
+}
+
+.comp-name{
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  padding: 20px 0px 20px 0px;
+}
+
+.comp-role{
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.comp-duration{
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: rgb(206, 218, 218);
+
+}
+
+.short-descp{
+  padding: 65px 0px 0px 20px;
+  max-width: 650px;
+  color: rgb(228, 222, 222);
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.9rem;
+  text-align: justify;
+  text-wrap: wrap;
+
+}
+
+.vl {
+  margin: 50px 0px 50px 50px;
+  border-left: 6px groove rgb(90, 94, 93);
+  height: 420px;
+}
+
